@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Be My Valentine 💖</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine 💖</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>Will you be my Valentine? 💕</h1>
+    <audio id="bg-music" loop>
+      <source src="music/way-back-into-love.mp3" type="audio/mpeg">
+    </audio>
 
-    <div class="buttons">
-      <button id="yesBtn">YES, DEFINITELY YES. WHY NOT "YES"? IT MUST BE "YES" 💖</button>
-      <button id="noBtn">NO 💔</button>
+    <div id="music-control" class="music-btn">
+        <span id="music-icon">🎵</span>
     </div>
 
-    <p id="message"></p>
-  </div>
+    <div class="container">
+        <h1>Will you be my Valentine? 💕</h1>
 
-  <script src="script.js"></script>
+        <div class="buttons">
+            <button id="yesBtn">YES! 💖</button>
+            <button id="noBtn">NO 💔</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
